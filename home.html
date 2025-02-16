@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank D</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- Phone UI Start -->
+    <div class="flex">
+        <div class="mockup-phone border-primary">
+            <div class="camera"></div>
+            <div class="display">
+                <div class="artboard artboard-demo phone-1">
+
+                    <!-- main balance Start -->
+                    <div class="stack mb-5">
+                        <div class="card bg-green-600 w-60 text-center shadow-md">
+                            <div class="card-body">
+                                <h2 class="font-extrabold text-white">1600</h2c>
+                                    <h6 class="text-white">Main Balance</h6>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- main balance End -->
+
+                    <!-- Add Money and Cashout Button Start -->
+                    <div class="grid-cols-2 mb-5">
+                        <!-- Add Money Start -->
+                        <div class="stack">
+                            <div class="card bg-base-200 w-32 text-center shadow-md">
+                                <div class="card-body">
+                                    <h2 class="font-extrabold">Add Money</h2c>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- Add Money End -->
+
+                        <!-- Cashout Start -->
+                        <div class="stack">
+                            <div class="card bg-base-200 w-32 text-center shadow-md">
+                                <div class="card-body">
+                                    <h2 class="font-extrabold">Cash Out</h2>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- Cashout End -->
+                    </div>
+                    <!-- Add Money and Cashout Button End -->
+
+
+                    <div class="divider"></div>
+
+                    <!-- add money Form Start -->
+                    <!-- Login Information Start -->
+                    <div class="hero bg-base-200 min-h-screen">
+                        <div class="hero-content flex-col lg:flex-row-reverse">
+                            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                                <form class="card-body">
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">Phone Number</span>
+                                        </label>
+                                        <input id="phone-check" type="text" placeholder="Enter Your Phone Number"
+                                            class="input input-bordered" required />
+                                    </div>
+                                    <div class="form-control">
+                                        <label class="label">
+                                            <span class="label-text">Pin</span>
+                                        </label>
+                                        <input id="pin-check" type="password" placeholder="Enter Your PIN"
+                                            class="input input-bordered" required />
+                                    </div>
+                                    <div class="form-control mt-6">
+                                        <button id="login-button" class="btn btn-primary">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Login Information End -->
+                    <!-- add money Form End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Phone UI End -->
+
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

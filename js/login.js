@@ -5,7 +5,7 @@ document.getElementById('login-button').addEventListener('click', function (even
     const pinNumber = document.getElementById('pin-check').value
 
     if (phoneNumber === '12345' && pinNumber === '1234') {
-        console.log('Phone Number is correct')
+        window.location.href = 'home.html'
     }
     else {
         alert('Your Phone number or pin Number is Incorrect');
